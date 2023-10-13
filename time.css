@@ -9,11 +9,17 @@ body {
   }
   
   .section-heading {
-    font-family: "Candara", cursive;
+    font-family: "ARIAL", cursive;
     text-align: center;
-    font-size: 64px;
+    font-size: 40px;
     color: #113859;
-    margin: 0 0 70px;
+    margin: 0 0 50px ;
+    background-image: linear-gradient(to left, #85b0fc, #0A93FC);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: black;
+    background-image: linear-gradient(to right, #0f42af, #131313);
   }
   
   .container {
@@ -34,15 +40,17 @@ body {
   }
   
   .profile img {
-    max-width: 90%;
+    width: 150px; /* Defina a largura desejada para as imagens */
+    height: 210px; /* Defina a altura desejada para as imagens */
+    margin-right: 20px; /* Adicione espaço entre as imagens */
     border-radius: 50%;
     border: 5px solid #f7f7f7;
     filter: drop-shadow(-20px 0 10px rgba(0, 0, 0, 0.1));
     cursor: pointer;
   }
-
+  
   .profile:not(:first-child) img {
-    margin-left: -20px;
+    margin-left: 20px;
   }
   
   .profile .name {
